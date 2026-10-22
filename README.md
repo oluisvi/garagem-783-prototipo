@@ -29,6 +29,9 @@ Direção base: um letreiro circular “783” como sinal visual próprio da pro
 - Nenhum formulário transacional; pedidos e reservas não são funcionais.
 - Menus e agendas atuais foram omitidos por falta de confirmação.
 
-## Publicação
+## Publicação e contato
 
-Publicado no GitHub Pages após revisão: consultar a URL do repositório e a URL pública nas informações de entrega da tarefa.
+- Repositório público: https://github.com/oluisvi/garagem-783-prototipo
+- GitHub Pages: https://oluisvi.github.io/garagem-783-prototipo/
+- Deployment e resposta da página conferidos em 22/10/2026; a URL respondeu HTTP 200.
+- Rascunho preparado em 22/10/2026 pelo Gmail ServAgency (`servagencybr@gmail.com`), para `garagem783bar@gmail.com`, assunto “Uma ideia de página para o Garagem 783”. Não enviado: falta conferir visualmente o endereço com a imagem do anúncio, como pede o brief. ID de mensagem do rascunho: `1a165650c130afe0`.
