@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171a18">
+  <meta name="description" content="Protótipo conceitual de apresentação digital para o Garagem 783 Bar, em Caxambu. Conteúdo sujeito à confirmação do estabelecimento.">
+  <title>Garagem 783 — proposta de experiência digital</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-direction="balcao">
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <header class="prototype-bar">
+    <span>Estudo conceitual · não é o site oficial</span>
+    <a href="https://www.instagram.com/garagem783bar/" target="_blank" rel="noreferrer">Ver perfil no Instagram ↗</a>
+  </header>
+  <nav class="switcher" aria-label="Escolha uma direção visual">
+    <span class="switcher-label">Explore as direções</span>
+    <div class="switcher-options" role="group" aria-label="Direções visuais">
+      <button type="button" data-mode="balcao" aria-pressed="true"><span>01</span> Balcão da casa</button>
+      <button type="button" data-mode="noite" aria-pressed="false"><span>02</span> Sabores de Caxambu</button>
+      <button type="button" data-mode="ponto" aria-pressed="false"><span>03</span> Ponto de encontro</button>
+    </div>
+  </nav>
+  <main id="conteudo" aria-live="polite" aria-atomic="true"></main>
+  <footer class="prototype-footer">
+    <p>Uma proposta da ServAgency · cores, conteúdo e estrutura podem ser ajustados com a equipe.</p>
+    <a href="https://www.instagram.com/garagem783bar/" target="_blank" rel="noreferrer">Instagram oficial ↗</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
